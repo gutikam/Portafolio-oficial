@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+/*header and nav */
+header{
+    position: fixed;
+    z-index: 200;
+}
+
+.titulo {
+    background-color: rgb(56, 57, 57);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    width: 100vw;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(94, 109, 109);
+}
+
+.li {
+    padding: 10px;
+    border-right: 1px solid white;
+    position: relative;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.li:hover{
+    background-color: rgb(128, 119, 119);
+    width: 120px;
+    height: 30px;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    position: relative;
+    left: 550px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icons-a{
+    transition: 0.3s ease-in-out;
+}
+
+.icons a:hover{
+    font-size: 27px;
+    color: black;
+}
+/*header and nav */
+
+.hr-1{
+    width: 100%;
+    position: relative;
+    top: 370px;
+}
+
+/*div-main*/
+.sobre-mi {
+    width: 1230px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(57, 56, 56);
+    position: relative;
+    top: 230px;
+    color: white;
+}
+
+.sobre-titulo{
+    padding-top: 60px;
+    padding-left: 30px;
+    width: 400px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.sobre-parrafo{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 400px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+/*div-sobre-mi*/
+
+
+/*div-sobre-tecnologias*/
+.sobre-tecnologias{
+    width: 1230px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    position: relative;
+    top: 510px;
+}
+
+.titulo-tecnologias{
+    text-align: center;
+    padding: 10px;
+}
+
+.tecnologias{
+    display: flex;
+    position: absolute;
+    bottom: 190px;
+    left: 193px;
+}
+
+.sobre-img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+}
+
+.sobre-img:hover {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+/*div-sobre-tecnologias*/
+
+.hr-2{
+    position: relative;
+    top: 670px;
+}
+
+/*div-sobre-proyectos*/
+.sobre-proyectos{
+    width: 1230px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    position: relative;
+    top: 850px;
+}
+
+/*div-sobre-proyectos*/
+
+.hr-3{
+    position: relative;
+    top: 1000px;
+}
+
+/*div-sobre-certificados*/
+.sobre-certificados{
+    width: 1230px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    position: relative;
+    top: 1150px;
+}
+/*div-sobre-certificados*/
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(94, 109, 109);
+    position: relative;
+    top: 1300px;
+}
+
+
+
+
+
+
+
+
+
+
